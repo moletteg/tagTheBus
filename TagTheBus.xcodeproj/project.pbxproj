@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363C12C8EA3E4CA3B9B3B9AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE59CBE148A547BC94FBC2A1 /* libPods.a */; };
+		E226A6C41B2190290021AA80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E226A6C31B2190290021AA80 /* main.m */; };
+		E226A6C71B2190290021AA80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E226A6C61B2190290021AA80 /* AppDelegate.m */; };
+		E226A6CA1B2190290021AA80 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E226A6C91B2190290021AA80 /* MasterViewController.m */; };
+		E226A6CD1B2190290021AA80 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E226A6CC1B2190290021AA80 /* DetailViewController.m */; };
+		E226A6D01B2190290021AA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E226A6CE1B2190290021AA80 /* Main.storyboard */; };
+		E226A6D21B2190290021AA80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E226A6D11B2190290021AA80 /* Images.xcassets */; };
+		E226A6D51B2190290021AA80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E226A6D31B2190290021AA80 /* LaunchScreen.xib */; };
+		E226A6E11B2190290021AA80 /* TagTheBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E226A6E01B2190290021AA80 /* TagTheBusTests.m */; };
+		E226A6EC1B2190680021AA80 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E226A6EA1B2190680021AA80 /* DataModel.xcdatamodeld */; };
+		E226A6F51B21C6EA0021AA80 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E226A6F41B21C6EA0021AA80 /* PhotoCell.m */; };
+		E2653DB21B27356100B56910 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2653DB11B27356100B56910 /* CoreData.framework */; };
+		E2653DF61B27442400B56910 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = E2653DF51B27442400B56910 /* Line.m */; };
+		E26CCA221B28359E003A3E52 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCA211B28359E003A3E52 /* ImageManager.m */; };
+		E26CCA251B283A0C003A3E52 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCA241B283A0C003A3E52 /* Photo.m */; };
+		E26CCA281B28645E003A3E52 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCA271B28645E003A3E52 /* ImageViewController.m */; };
+		E27D06631B21CC9D00CDCA16 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D06621B21CC9D00CDCA16 /* PhotoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E226A6DB1B2190290021AA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E226A6B61B2190290021AA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E226A6BD1B2190290021AA80;
+			remoteInfo = TagTheBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE59CBE148A547BC94FBC2A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA959AFB00B41BAAE834B37 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E226A6BE1B2190290021AA80 /* TagTheBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagTheBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E226A6C21B2190290021AA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E226A6C31B2190290021AA80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E226A6C51B2190290021AA80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E226A6C61B2190290021AA80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E226A6C81B2190290021AA80 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E226A6C91B2190290021AA80 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E226A6CB1B2190290021AA80 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E226A6CC1B2190290021AA80 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E226A6CF1B2190290021AA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E226A6D11B2190290021AA80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E226A6D41B2190290021AA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E226A6DA1B2190290021AA80 /* TagTheBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagTheBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E226A6DF1B2190290021AA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E226A6E01B2190290021AA80 /* TagTheBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagTheBusTests.m; sourceTree = "<group>"; };
+		E226A6EB1B2190680021AA80 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		E226A6F31B21C6EA0021AA80 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		E226A6F41B21C6EA0021AA80 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		E2653DB11B27356100B56910 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2653DF41B27442400B56910 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		E2653DF51B27442400B56910 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		E26CCA201B28359E003A3E52 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		E26CCA211B28359E003A3E52 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		E26CCA231B283A0C003A3E52 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		E26CCA241B283A0C003A3E52 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		E26CCA261B28645E003A3E52 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		E26CCA271B28645E003A3E52 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		E27D06611B21CC9D00CDCA16 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		E27D06621B21CC9D00CDCA16 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E226A6BB1B2190290021AA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2653DB21B27356100B56910 /* CoreData.framework in Frameworks */,
+				363C12C8EA3E4CA3B9B3B9AD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E226A6D71B2190290021AA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B16A9363C294047A91E8799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2653DB11B27356100B56910 /* CoreData.framework */,
+				AE59CBE148A547BC94FBC2A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E226A6B51B2190290021AA80 = {
+			isa = PBXGroup;
+			children = (
+				E226A6C01B2190290021AA80 /* TagTheBus */,
+				E226A6DD1B2190290021AA80 /* TagTheBusTests */,
+				E226A6BF1B2190290021AA80 /* Products */,
+				BBA959AFB00B41BAAE834B37 /* Pods.xcconfig */,
+				8B16A9363C294047A91E8799 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E226A6BF1B2190290021AA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6BE1B2190290021AA80 /* TagTheBus.app */,
+				E226A6DA1B2190290021AA80 /* TagTheBusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E226A6C01B2190290021AA80 /* TagTheBus */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6C51B2190290021AA80 /* AppDelegate.h */,
+				E226A6C61B2190290021AA80 /* AppDelegate.m */,
+				E226A6D11B2190290021AA80 /* Images.xcassets */,
+				E226A6D31B2190290021AA80 /* LaunchScreen.xib */,
+				E29953A81B29864C005A3649 /* Model */,
+				E29953A91B2986A1005A3649 /* ViewController */,
+				E29953AA1B298704005A3649 /* Manager */,
+				E226A6C11B2190290021AA80 /* Supporting Files */,
+			);
+			path = TagTheBus;
+			sourceTree = "<group>";
+		};
+		E226A6C11B2190290021AA80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6C21B2190290021AA80 /* Info.plist */,
+				E226A6C31B2190290021AA80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E226A6DD1B2190290021AA80 /* TagTheBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6E01B2190290021AA80 /* TagTheBusTests.m */,
+				E226A6DE1B2190290021AA80 /* Supporting Files */,
+			);
+			path = TagTheBusTests;
+			sourceTree = "<group>";
+		};
+		E226A6DE1B2190290021AA80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6DF1B2190290021AA80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E29953A81B29864C005A3649 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6EA1B2190680021AA80 /* DataModel.xcdatamodeld */,
+				E26CCA231B283A0C003A3E52 /* Photo.h */,
+				E26CCA241B283A0C003A3E52 /* Photo.m */,
+				E2653DF41B27442400B56910 /* Line.h */,
+				E2653DF51B27442400B56910 /* Line.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E29953A91B2986A1005A3649 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6CE1B2190290021AA80 /* Main.storyboard */,
+				E226A6C81B2190290021AA80 /* MasterViewController.h */,
+				E226A6C91B2190290021AA80 /* MasterViewController.m */,
+				E226A6CB1B2190290021AA80 /* DetailViewController.h */,
+				E226A6CC1B2190290021AA80 /* DetailViewController.m */,
+				E27D06611B21CC9D00CDCA16 /* PhotoViewController.h */,
+				E27D06621B21CC9D00CDCA16 /* PhotoViewController.m */,
+				E26CCA261B28645E003A3E52 /* ImageViewController.h */,
+				E26CCA271B28645E003A3E52 /* ImageViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E29953AA1B298704005A3649 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E226A6F31B21C6EA0021AA80 /* PhotoCell.h */,
+				E226A6F41B21C6EA0021AA80 /* PhotoCell.m */,
+				E26CCA201B28359E003A3E52 /* ImageManager.h */,
+				E26CCA211B28359E003A3E52 /* ImageManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E226A6BD1B2190290021AA80 /* TagTheBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E226A6E41B2190290021AA80 /* Build configuration list for PBXNativeTarget "TagTheBus" */;
+			buildPhases = (
+				FEC63F49CBF64704984AC2C3 /* Check Pods Manifest.lock */,
+				E226A6BA1B2190290021AA80 /* Sources */,
+				E226A6BB1B2190290021AA80 /* Frameworks */,
+				E226A6BC1B2190290021AA80 /* Resources */,
+				DC55EDD56E0D4B30B1E70CDE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagTheBus;
+			productName = TagTheBus;
+			productReference = E226A6BE1B2190290021AA80 /* TagTheBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E226A6D91B2190290021AA80 /* TagTheBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E226A6E71B2190290021AA80 /* Build configuration list for PBXNativeTarget "TagTheBusTests" */;
+			buildPhases = (
+				E226A6D61B2190290021AA80 /* Sources */,
+				E226A6D71B2190290021AA80 /* Frameworks */,
+				E226A6D81B2190290021AA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E226A6DC1B2190290021AA80 /* PBXTargetDependency */,
+			);
+			name = TagTheBusTests;
+			productName = TagTheBusTests;
+			productReference = E226A6DA1B2190290021AA80 /* TagTheBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E226A6B61B2190290021AA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gregory Molette";
+				TargetAttributes = {
+					E226A6BD1B2190290021AA80 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E226A6D91B2190290021AA80 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E226A6BD1B2190290021AA80;
+					};
+				};
+			};
+			buildConfigurationList = E226A6B91B2190290021AA80 /* Build configuration list for PBXProject "TagTheBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E226A6B51B2190290021AA80;
+			productRefGroup = E226A6BF1B2190290021AA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E226A6BD1B2190290021AA80 /* TagTheBus */,
+				E226A6D91B2190290021AA80 /* TagTheBusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E226A6BC1B2190290021AA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E226A6D01B2190290021AA80 /* Main.storyboard in Resources */,
+				E226A6D51B2190290021AA80 /* LaunchScreen.xib in Resources */,
+				E226A6D21B2190290021AA80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E226A6D81B2190290021AA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC55EDD56E0D4B30B1E70CDE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC63F49CBF64704984AC2C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E226A6BA1B2190290021AA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26CCA221B28359E003A3E52 /* ImageManager.m in Sources */,
+				E226A6F51B21C6EA0021AA80 /* PhotoCell.m in Sources */,
+				E226A6C71B2190290021AA80 /* AppDelegate.m in Sources */,
+				E226A6EC1B2190680021AA80 /* DataModel.xcdatamodeld in Sources */,
+				E226A6CA1B2190290021AA80 /* MasterViewController.m in Sources */,
+				E26CCA281B28645E003A3E52 /* ImageViewController.m in Sources */,
+				E2653DF61B27442400B56910 /* Line.m in Sources */,
+				E27D06631B21CC9D00CDCA16 /* PhotoViewController.m in Sources */,
+				E26CCA251B283A0C003A3E52 /* Photo.m in Sources */,
+				E226A6C41B2190290021AA80 /* main.m in Sources */,
+				E226A6CD1B2190290021AA80 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E226A6D61B2190290021AA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E226A6E11B2190290021AA80 /* TagTheBusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E226A6DC1B2190290021AA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E226A6BD1B2190290021AA80 /* TagTheBus */;
+			targetProxy = E226A6DB1B2190290021AA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E226A6CE1B2190290021AA80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E226A6CF1B2190290021AA80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E226A6D31B2190290021AA80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E226A6D41B2190290021AA80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E226A6E21B2190290021AA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E226A6E31B2190290021AA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E226A6E51B2190290021AA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA959AFB00B41BAAE834B37 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagTheBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E226A6E61B2190290021AA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA959AFB00B41BAAE834B37 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagTheBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E226A6E81B2190290021AA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagTheBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagTheBus.app/TagTheBus";
+			};
+			name = Debug;
+		};
+		E226A6E91B2190290021AA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagTheBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagTheBus.app/TagTheBus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E226A6B91B2190290021AA80 /* Build configuration list for PBXProject "TagTheBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E226A6E21B2190290021AA80 /* Debug */,
+				E226A6E31B2190290021AA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E226A6E41B2190290021AA80 /* Build configuration list for PBXNativeTarget "TagTheBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E226A6E51B2190290021AA80 /* Debug */,
+				E226A6E61B2190290021AA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E226A6E71B2190290021AA80 /* Build configuration list for PBXNativeTarget "TagTheBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E226A6E81B2190290021AA80 /* Debug */,
+				E226A6E91B2190290021AA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E226A6EA1B2190680021AA80 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E226A6EB1B2190680021AA80 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = E226A6EB1B2190680021AA80 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E226A6B61B2190290021AA80 /* Project object */;
+}
